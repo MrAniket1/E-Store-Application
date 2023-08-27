@@ -24,7 +24,7 @@ Welcome to the E-Store Application! This is a full-stack web application built u
 ## Installation
 
 1. Clone the repository:
-  git clone <repository-url>
+  git clone https://github.com/MrAniket1/E-Store-Application
 
 2. Navigate to the backend folder and install backend dependencies:
   cd backend
@@ -36,17 +36,16 @@ Welcome to the E-Store Application! This is a full-stack web application built u
 
 4. Configuration
   Create a .env file in the backend folder and set up environment variables:
+  - NODE_ENV=<development_or_production>
+  - PORT=5000
+  - MONGO_URI=<Your_mongodb_url>
+  - API_URL=http://localhost:5000/API_URL
+  - JWT_SECRET=<your_secret_key>
+  - PAYMENT_CLIENT_ID=<your_paypal_client_id>
 
-  NODE_ENV=<development_or_production>
-  PORT=5000
-  MONGO_URI=<Your_mongodb_url>
-  API_URL=http://localhost:5000/API_URL
-  JWT_SECRET=<your_secret_key>
-  PAYMENT_CLIENT_ID=<your_paypal_client_id>
+6. Set up your MongoDB database and obtain a connection string.
 
-5. Set up your MongoDB database and obtain a connection string.
-
-6. Run the following command from the root directory of the project to import sample data in your database
+7. Run the following command from the root directory of the project to import sample data in your database
 
   npm run data:import
 
