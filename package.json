@@ -4,11 +4,12 @@
   "description": "Discover a world of style and convenience at our E-Store. Browse a curated collection of high-quality products from fashion to tech, all delivered to your doorstep. Elevate your shopping experience with us today!",
   "main": "server.js",
   "type": "module",
-  "scripts": {
-    "start": "node backend/server.js",
-    "start-backend": "cd backend && npm start",
-    "start-frontend": "cd frontend && npm start",
-    "client": "npm start --prefix frontend"
+ "scripts": {
+    "start": "serve -s build",
+    "server": "node backend/server",
+    "client": "npm start --prefix frontend",
+    "data:destroy": "node backend/seeder -d",
+    "data:import": "node backend/seeder"
   },
   "author": "Aniket Ram Kewat",
   "license": "ISC",
