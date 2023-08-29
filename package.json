@@ -4,8 +4,8 @@
   "description": "Discover a world of style and convenience at our E-Store. Browse a curated collection of high-quality products from fashion to tech, all delivered to your doorstep. Elevate your shopping experience with us today!",
   "main": "server.js",
   "type": "module",
- "scripts": {
-    "start": "serve -s build",
+  "scripts": {
+    "start": "node backend/server.js",
     "server": "node backend/server",
     "client": "npm start --prefix frontend",
     "data:destroy": "node backend/seeder -d",
@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "color": "^4.2.3",
     "colors": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
