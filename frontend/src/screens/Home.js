@@ -20,7 +20,7 @@ const data = [
     id: 1,
     img: Shipped,
     title: "FREE SHIPPING",
-    description: "For all order over 99$",
+    description: "For all order over 99₹",
   },
   {
     id: 2,

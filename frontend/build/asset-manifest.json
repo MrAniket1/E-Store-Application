@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5d9a0ad.chunk.css",
+    "main.js": "/static/js/main.628930f4.chunk.js",
+    "main.js.map": "/static/js/main.628930f4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0214132c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0214132c.js.map",
+    "static/js/2.b5e083c7.chunk.js": "/static/js/2.b5e083c7.chunk.js",
+    "static/js/2.b5e083c7.chunk.js.map": "/static/js/2.b5e083c7.chunk.js.map",
+    "static/js/3.af6e0785.chunk.js": "/static/js/3.af6e0785.chunk.js",
+    "static/js/3.af6e0785.chunk.js.map": "/static/js/3.af6e0785.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a5d9a0ad.chunk.css.map": "/static/css/main.a5d9a0ad.chunk.css.map",
+    "static/js/2.b5e083c7.chunk.js.LICENSE.txt": "/static/js/2.b5e083c7.chunk.js.LICENSE.txt",
+    "static/media/back-in-time.e032b6bd.png": "/static/media/back-in-time.e032b6bd.png",
+    "static/media/credit-card.61603431.png": "/static/media/credit-card.61603431.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0214132c.js",
+    "static/js/2.b5e083c7.chunk.js",
+    "static/css/main.a5d9a0ad.chunk.css",
+    "static/js/main.628930f4.chunk.js"
+  ]
+}

@@ -143,7 +143,7 @@ class PlaceOrder extends Component {
                             </Col>
 
                             <Col md={4}>
-                              {item.qty} x ₹{item.price} = $
+                              {item.qty} x ₹{item.price} = ₹
                               {item.qty * item.price}
                             </Col>
                           </Row>

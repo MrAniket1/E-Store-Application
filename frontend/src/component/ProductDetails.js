@@ -86,7 +86,7 @@ class ProductDetails extends Component {
                     </ListGroup.Item>
                     <ListGroup.Item>
                       Price:{" "}
-                      <span style={{ fontWeight: 700 }}>${product.price}</span>
+                      <span style={{ fontWeight: 700 }}>₹ {product.price}</span>
                     </ListGroup.Item>
                     <ListGroup.Item>{product.description}</ListGroup.Item>
                   </ListGroup>
@@ -98,7 +98,7 @@ class ProductDetails extends Component {
                     <ListGroup.Item>
                       <Row>
                         <Col>Price: </Col>
-                        <Col>${product.price}</Col>
+                        <Col>₹ {product.price}</Col>
                       </Row>
                     </ListGroup.Item>
                     <ListGroup.Item>
